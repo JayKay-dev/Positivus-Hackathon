@@ -4,6 +4,11 @@ body {
     color: #000;
 }
 
+a:hover {
+    color: #B9FF66 !important;
+    cursor: pointer;
+}
+
 .container {
     max-width: 1170px !important;
     width: 100% !important;
@@ -46,6 +51,14 @@ nav li a.cta {
     border: 1px solid grey;
     border-radius: 10px;
     padding: 12px 18px !important;
+}
+
+nav li a.cta:hover {
+    border: 1px solid #B9FF66;
+    border-radius: 10px;
+    padding: 12px 18px !important;
+    background-color: #B9FF66;
+    color: #000 !important;
 }
 
 .hero-cover {
