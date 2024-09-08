@@ -1,10 +1,82 @@
 body {
     margin: 0;
-    font-family: ;
-    font-family: Space Grotesk, Arial, Helvetica, sans-serif;
+    font-family: Space Grotesk, Arial, Helvetica, sans-serif !important;
+    color: #000;
+}
+
+.container {
+    max-width: 1170px !important;
+    width: 100% !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
 }
 
 header {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+header .logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 150px;
+    margin-top: -10px;
+}
+
+header nav {
+    justify-content: flex-end !important;
+}
+
+nav ul {
+    align-items: center;
+}
+
+nav ul li {
+    padding-left: 20px;
+}
+
+nav ul li a {
+    font-weight: 500 !important;
+}
+
+nav li a.cta {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 12px 18px !important;
+}
+
+.hero-cover {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-cover .row {
+    align-items: center;
+}
+
+.hero-cover .hero-left h1,
+p {
+    padding-bottom: 20px;
+}
+
+.hero-cover .hero-left a {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.hero-cover .hero-right img {
+    width: 100%;
+}
+
+@media (max-width: 992px) {
+    .hero-cover .hero-left {
+        padding-bottom: 50px;
+    }
 }
