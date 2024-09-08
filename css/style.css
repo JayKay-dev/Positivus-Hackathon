@@ -49,8 +49,7 @@ nav li a.cta {
 }
 
 .hero-cover {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 0px;
 }
 
 .hero-cover .row {
@@ -73,6 +72,31 @@ p {
 
 .hero-cover .hero-right img {
     width: 100%;
+}
+
+.services-header {
+    padding: 100px 0px;
+}
+
+.services-header .container {
+    display: flex;
+    align-items: center;
+}
+
+.services-header h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.services-header h2 mark {
+    background-color: #B9FF66;
+
+}
+
+.services-header p {
+    max-width: 550px;
+    margin: 0px 0px 0px 40px;
+    padding: 0px;
 }
 
 @media (max-width: 992px) {
